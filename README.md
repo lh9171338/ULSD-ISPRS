@@ -152,6 +152,10 @@ python test.py --dataset_name <DATASET_NAME> --order <ORDER> --model_name <MODEL
 python test.py --dataset_name <DATASET_NAME> --order <ORDER> --model_name <MODEL_NAME> --evaluate [--gpu <GPU_ID>]
 ```
 
+## Annotation Tool
+
+* There is a line segment [annotation tool](https://github.com/lh9171338/Labelline) for pinhole, fisheye, and spherical images.
+
 ## Citation
 ```
 @article{LI2021187,

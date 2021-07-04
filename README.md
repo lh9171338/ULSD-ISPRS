@@ -3,7 +3,7 @@
 This repository contains the official PyTorch implementation of the paper: [ULSD: Unified Line Segment Detection across Pinhole, Fisheye, and Spherical Cameras](https://www.sciencedirect.com/science/article/abs/pii/S0924271621001623).
 
 ## Introduction
-[ULSD](https://arxiv.org/abs/2011.03174) is a unified line segment detection method for both distorted and undistorted images from pinhole, fisheye or spherical cameras. With a novel line segment representation based on the Bezier curve, our method can detect arbitrarily distorted line segments. Experimental results on the pinhole, fisheye, spherical and mixed image datasets validate the superiority of the proposed ULSD to the SOTA methods both in accuracy and efficiency.
+[ULSD](https://www.sciencedirect.com/science/article/abs/pii/S0924271621001623) is a unified line segment detection method for both distorted and undistorted images from pinhole, fisheye or spherical cameras. With a novel line segment representation based on the Bezier curve, our method can detect arbitrarily distorted line segments. Experimental results on the pinhole, fisheye, and spherical image datasets validate the superiority of the proposed ULSD to the SOTA methods both in accuracy and efficiency. Especially, the performance of ULSD trained on the three-mixed dataset further demonstrates its effectiveness and generality across the three common camera model.
 
 ## Network Architecture
 <p align="center"><img width="600" src="figure/Network.png"/></p>
@@ -108,7 +108,7 @@ conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
 ```
 
 ## Quickstart with the pretrained model
-* There are 4 pretrained models (**mixed.pkl**, **pinhole.pkl**, **fisheye.pkl**, and **spherical.pkl**) in [Google drive](https://drive.google.com/drive/folders/1QyNjfLKoKqX8smi3e922Z8PEeBZid_St)
+* There are 4 pretrained models (**mixed.pkl**, **pinhole.pkl**, **fisheye.pkl**, and **spherical.pkl**) in [Google drive](https://drive.google.com/drive/folders/1YkK4nvMLJm12GclxJ8SOdzCZlKcDHjPR?usp=sharing)
 . Please download them and put in the **model/** folder.
 * Put your test images in the **dataset/** folder.
 ```shell
@@ -120,7 +120,7 @@ python test.py --dataset_name <DATASET_NAME> --order 4 --model_name <MODEL_NAME>
 
 ### Data Preparation
 
-* Download the json-format dataset from [Google Drive]().
+* Download the json-format dataset from [Google Drive](https://drive.google.com/drive/folders/1K-pGDDPrXkCmWCcoyYvURZ86ZzA5O6E_?usp=sharing).
 * Unzip the dataset to the **dataset/** folder.
 * Convert the dataset from json-format to npz-format.
 ```shell
@@ -154,7 +154,7 @@ python test.py --dataset_name <DATASET_NAME> --order <ORDER> --model_name <MODEL
 
 ## Annotation Tool
 
-* There is a line segment [annotation tool](https://github.com/lh9171338/Labelline) for pinhole, fisheye, and spherical images.
+* There is a line segment [annotation tool](https://github.com/lh9171338/Labelline) for pinhole, fisheye, and spherical images. If you want to build your own training dataset, it's may be helpful.
 
 ## Citation
 ```

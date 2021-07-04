@@ -17,7 +17,7 @@ This repository contains the official PyTorch implementation of the paper: [ULSD
 	<tr>
 		<td rowspan="2" colspan="1" align="center">Method</td>
 		<td rowspan="2" colspan="1" align="center">Training Dataset</td>
-		<td rowspan="1" colspan="5" align="center"><a href="https://github.com/zhou13/lcnn">Mixed Dataset</a></td>
+		<td rowspan="1" colspan="5" align="center"><a href="https://drive.google.com/drive/folders/1K-pGDDPrXkCmWCcoyYvURZ86ZzA5O6E_?usp=sharing">Mixed Dataset</a></td>
 		<td rowspan="2" colspan="1" align="center">FPS</td>
 	</tr>
 	<tr>
@@ -80,7 +80,7 @@ This repository contains the official PyTorch implementation of the paper: [ULSD
 </table>
 </html>
 
-#### Qualitative Comparisons
+### Qualitative Comparisons
 
 <p align="center">
     <img src="figure/Qualitative-mixed.png"/>
@@ -154,7 +154,7 @@ python test.py --dataset_name <DATASET_NAME> --order <ORDER> --model_name <MODEL
 
 ## Annotation Tool
 
-* There is a line segment [annotation tool](https://github.com/lh9171338/Labelline) for pinhole, fisheye, and spherical images. If you want to build your own training dataset, it's may be helpful.
+* There is a line segment annotation tool [**Labelline**](https://github.com/lh9171338/Labelline) for pinhole, fisheye, and spherical images. If you want to build your own training dataset, it's may be helpful.
 
 ## Citation
 ```

@@ -21,11 +21,11 @@ This repository contains the official PyTorch implementation of the paper: [ULSD
 		<td rowspan="2" colspan="1" align="center">FPS</td>
 	</tr>
 	<tr>
-		<td align="center">sAP$^{5}$</td>
-		<td align="center">sAP$^{10}$</td>
-		<td align="center">sAP$^{15}$</td>
+		<td align="center">sAP<sup>5</sup></td>
+		<td align="center">sAP<sup>10</sup></td>
+		<td align="center">sAP<sup>15</sup></td>
 		<td align="center">msAP</td>
-		<td align="center">mAP$^{J}$</td>
+		<td align="center">mAP<sup>J</sup></td>
 	</tr>
 	<tr>
 		<td align="center">HT</td>

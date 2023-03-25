@@ -108,7 +108,7 @@ conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
 ```
 
 ## Quickstart with the pretrained model
-* There are 4 pretrained models (**mixed.pkl**, **pinhole.pkl**, **fisheye.pkl**, and **spherical.pkl**) in [Google drive](https://drive.google.com/drive/folders/1YkK4nvMLJm12GclxJ8SOdzCZlKcDHjPR?usp=sharing)
+* There are 4 pretrained models (**mixed.pkl**, **pinhole.pkl**, **fisheye.pkl**, and **spherical.pkl**) in [Google drive](https://drive.google.com/drive/folders/1YkK4nvMLJm12GclxJ8SOdzCZlKcDHjPR?usp=sharing) or [Baiduyun](https://pan.baidu.com/s/1YM0ARY-7A-O0n8s7ngDDSw?pwd=gac7)
 . Please download them and put in the **model/** folder.
 * Put your test images in the **dataset/** folder.
 ```shell

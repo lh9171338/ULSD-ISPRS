@@ -1,5 +1,10 @@
 [<img height="23" src="https://raw.githubusercontent.com/lh9171338/Outline/master/icon.jpg"/>](https://github.com/lh9171338/Outline) ULSD-ISPRS
 ===
+
+<p align="center">
+    🤗 <a href="https://huggingface.co/collections/lh9171338/ulsd-68c2c980ecbcc3c5a0b5707a">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://www.sciencedirect.com/science/article/abs/pii/S0924271621001623">Paper</a>
+</p>
+
 This repository contains the official PyTorch implementation of the paper: [ULSD: Unified Line Segment Detection across Pinhole, Fisheye, and Spherical Cameras](https://www.sciencedirect.com/science/article/abs/pii/S0924271621001623).
 
 ## Introduction
@@ -108,8 +113,7 @@ conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
 ```
 
 ## Quickstart with the pretrained model
-* There are 4 pretrained models (**mixed.pkl**, **pinhole.pkl**, **fisheye.pkl**, and **spherical.pkl**) in [[☁️ Google drive]](https://drive.google.com/drive/folders/1YkK4nvMLJm12GclxJ8SOdzCZlKcDHjPR?usp=sharing), [[☁️ Baiduyun]](https://pan.baidu.com/s/1YM0ARY-7A-O0n8s7ngDDSw?pwd=gac7) and [[🤗 Hugging Face]](https://huggingface.co/lh9171338/ULSD)
-. Please download them and put in the **model/** folder.
+* There are 4 pretrained models (**mixed.pkl**, **pinhole.pkl**, **fisheye.pkl**, and **spherical.pkl**) in [[☁️ Google drive]](https://drive.google.com/drive/folders/1YkK4nvMLJm12GclxJ8SOdzCZlKcDHjPR?usp=sharing), [[☁️ Baiduyun]](https://pan.baidu.com/s/1YM0ARY-7A-O0n8s7ngDDSw?pwd=gac7) or [[🤗 Hugging Face]](https://huggingface.co/collections/lh9171338/ulsd-68c2c980ecbcc3c5a0b5707a). Please download them and put in the **model/** folder.
 * Put your test images in the **dataset/** folder.
 ```shell
 python test.py --dataset_name <DATASET_NAME> --order 4 --model_name <MODEL_NAME> --save_image
@@ -120,7 +124,7 @@ python test.py --dataset_name <DATASET_NAME> --order 4 --model_name <MODEL_NAME>
 
 ### Data Preparation
 
-* Download the json-format dataset from [[☁️ Google Drive]](https://drive.google.com/drive/folders/1K-pGDDPrXkCmWCcoyYvURZ86ZzA5O6E_?usp=sharing) or [[🤗 Hugging Face]](https://huggingface.co/lh9171338/datasets).
+* Download the json-format dataset from [[☁️ Google Drive]](https://drive.google.com/drive/folders/1K-pGDDPrXkCmWCcoyYvURZ86ZzA5O6E_?usp=sharing) or [[🤗 Hugging Face]](https://huggingface.co/collections/lh9171338/ulsd-68c2c980ecbcc3c5a0b5707a).
 * Unzip the dataset to the **dataset/** folder.
 * Convert the dataset from json-format to npz-format.
 ```shell
